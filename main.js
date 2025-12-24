@@ -1,8 +1,6 @@
-// Configuration: set this to your real form backend endpoint.
-// Example options:
-// - A serverless function you own (recommended)
-// - A service like Formspree or Netlify Functions
-const FORM_ENDPOINT_URL = ""; // e.g. "https://example.com/api/contact"
+// Configuration: in production on Vercel, this should point to the serverless function.
+// For local testing without a backend, you can leave it empty and submissions will log to console.
+const FORM_ENDPOINT_URL = "/api/contact";
 
 function initCurrentYear() {
   const yearEl = document.getElementById("current-year");
