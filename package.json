@@ -1,0 +1,14 @@
+{
+  "name": "dt-software-landing-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "lint": "echo \"No lint configured\""
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.0",
+    "resend": "^3.0.0"
+  }
+}
+
