@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vercel dev",
     "lint": "echo \"No lint configured\""
   },
   "dependencies": {
@@ -11,4 +10,3 @@
     "resend": "^3.0.0"
   }
 }
-

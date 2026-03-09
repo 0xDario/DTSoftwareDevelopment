@@ -135,17 +135,12 @@ a:hover {
 }
 
 .logo-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   width: 2rem;
   height: 2rem;
   border-radius: 999px;
-  background: radial-gradient(circle at 30% 0, #93c5fd 0, #1d4ed8 55%, #020617 100%);
   box-shadow: 0 0 0 1px rgba(148, 163, 184, 0.3), var(--shadow-subtle);
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  font-size: 0.9rem;
+  object-fit: cover;
 }
 
 .logo-text {
@@ -230,8 +225,8 @@ a:hover {
   height: 2px;
   border-radius: 999px;
   background: #e5e7eb;
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
-              opacity 0.2s ease-out;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.2s ease-out;
   display: block;
   margin: 0 auto;
 }
@@ -432,7 +427,7 @@ a:hover {
   color: var(--text-muted);
 }
 
-.card li + li {
+.card li+li {
   margin-top: 0.25rem;
 }
 
@@ -622,7 +617,7 @@ a:hover {
   padding-left: 1.1rem;
 }
 
-.contact-card li + li {
+.contact-card li+li {
   margin-top: 0.2rem;
 }
 
@@ -725,9 +720,9 @@ a:hover {
     transform: scaleY(0);
     opacity: 0;
     visibility: hidden;
-    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), 
-                opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-                visibility 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+      opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+      visibility 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     max-height: calc(100vh - 3.5rem);
     overflow-y: auto;
   }
@@ -765,7 +760,7 @@ a:hover {
     font-weight: 500;
     text-decoration: none;
     transition: color 0.2s ease-out, padding-left 0.25s ease-out,
-                background-color 0.2s ease-out;
+      background-color 0.2s ease-out;
     border-radius: var(--radius-sm);
     margin: 0 -0.5rem;
     padding-left: 1rem;
@@ -887,5 +882,3 @@ a:hover {
     font-size: 1rem;
   }
 }
-
-
