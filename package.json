@@ -7,7 +7,9 @@
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
-    "@vercel/node": "^3.0.0",
-    "resend": "^3.0.0"
+    "resend": "^6.38.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^30.0.0"
   }
 }

@@ -72,7 +72,7 @@ export default async function handler(
       to: toEmail,
       subject,
       text,
-      reply_to: email,
+      replyTo: email,
     });
 
     if (error) {
